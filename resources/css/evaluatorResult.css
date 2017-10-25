@@ -1,0 +1,12 @@
+table.qi-summary tr td:first-child {
+  font-weight: bold;
+}
+
+hr {
+  border-color: blue;
+  border-width: 5px;
+}
+
+#report-result {
+  margin-bottom: 50px;
+}
