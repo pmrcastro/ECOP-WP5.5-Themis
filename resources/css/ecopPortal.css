@@ -664,13 +664,13 @@ body, html {
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 900px) {
     #bottom-nav-page span.to-be-hidden {
         display: none;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   #bottom-nav-page div.nav-left,
   #bottom-nav-page div.nav-right {
       display: none;
@@ -679,10 +679,12 @@ body, html {
 
 #bottom-nav-page div.nav-left {
   float: left;
+  min-width: 250px;
 }
 
 #bottom-nav-page div.nav-right {
   float: right;
+  min-width: 150px;
 }
 
 #bottom-nav-page div.nav-center {
