@@ -1,7 +1,3 @@
-// ALL THE OBJECT NAMES SHOULD NOT BE CHANGED
-// <<<<< name, type, tag, fields >>>>>
-// <<<<< name, type, options, tag, fields >>>>>
-// TODO: JOIN QIs and EQIs > QIList
 const configJSON = {
   QIList: {
     TAGFILTER: {

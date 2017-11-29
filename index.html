@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- jQuery-->
+  <script src="vendors/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap-theme.min.css">
+  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- jQuery UI (for tabulator) -->
+  <link href="vendors/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+  <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+  <!-- Tabulator -->
+  <link href="vendors/tabulator/dist/css/tabulator_site.min.css" rel="stylesheet">
+  <script src="vendors/tabulator/dist/js/tabulator.min.js"></script>
+  <!-- doT -->
+  <script src="vendors/doT.min.js"></script>
+  <!-- XML2JSOn -->
+  <script src="vendors/xml2json.min.js"></script>
+  <!-- Chosen -->
+  <link href="vendors/chosen/chosen.css" rel="stylesheet">
+  <script src="vendors/chosen/chosen.jquery.js"></script>
+  <!-- Bootstrap Treeview -->
+  <link href="vendors/bootstrap-treeview/bootstrap-treeview.min.css" rel="stylesheet">
+  <!-- <script src="vendors/bootstrap-treeview/bootstrap-treeview.min.js"></script>  -->
+  <script src="vendors/bootstrap-treeview/bootstrap-treeview_distro.js"></script>
+  <!-- Moment js -->
+  <script src="vendors/moment.min.js"></script>
+  <!-- Spin js -->
+  <script src="vendors/spin-backdrop.js"></script>
+  <!-- Date Range Picker -->
+  <script src="vendors/date-range-picker/daterangepicker.min.js"></script>
+  <link href="vendors/date-range-picker/daterangepicker.min.css" rel="stylesheet">
+  <script src="vendors/date-range-picker/daterangepicker.min.js"></script>
+  <!-- Bootstrap Notify -->
+  <link href="vendors/bootstrap-notify/animate.min.css" rel="stylesheet">
+  <script src="vendors/bootstrap-notify/bootstrap-notify.min.js"></script>
+  <!-- Vex -->
+  <link href="vendors/vex/css/vex.css" rel="stylesheet">
+  <link href="vendors/vex/css/vex-theme-default.css" rel="stylesheet">
+  <script src="vendors/vex/js/vex.combined.min.js"></script>
+  <!-- Leaflet -->
+  <link href="vendors/leaflet/leaflet.css" rel="stylesheet">
+  <script src="vendors/leaflet/leaflet.min.js"></script>
+  <!-- Leaflet Image -->
+  <!-- <script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-image/v0.0.4/leaflet-image.js'></script> -->
+  <!-- Leaflet Draw -->
+  <link rel="stylesheet" href="vendors/leaflet/draw/leaflet.draw.css" />
+  <script src="vendors/leaflet/draw/Leaflet.draw.js"></script>
+  <script src="vendors/leaflet/draw/Leaflet.Draw.Event.js"></script>
+  <script src="vendors/leaflet/draw/ext/TouchEvents.js"></script>
+  <script src="vendors/leaflet/draw/Tooltip.js"></script>
+  <script src="vendors/leaflet/draw/ext/GeometryUtil.js"></script>
+  <script src="vendors/leaflet/draw/draw/handler/Draw.Feature.js"></script>
+  <script src="vendors/leaflet/draw/draw/handler/Draw.SimpleShape.js"></script>
+  <script src="vendors/leaflet/draw/draw/handler/Draw.Rectangle.js"></script>
+  <script src="vendors/leaflet/draw/edit/handler/Edit.SimpleShape.js"></script>
+  <script src="vendors/leaflet/draw/edit/handler/Edit.Poly.js"></script>
+  <script src="vendors/leaflet/draw/edit/handler/Edit.Rectangle.js"></script>
+  <!-- Material Floating Button -->
+  <link rel="stylesheet" href="vendors/material-floating-button/mfb.min.css" />
+  <!-- OWS -->
+  <script type="text/javascript" src="vendors/osgeo/jsonix/jsonix.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/OWS_1_0_0.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/DC_1_1.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/DCT.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/w3c-schemas/lib/XLink_1_0.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/CSW_2_0_2.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/Filter_1_1_0.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/GML_3_1_1.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/SMIL_2_0_Language.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/SMIL_2_0.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/GML_3_2_0.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_GCO_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_GMD_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_GTS_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_GSS_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_GSR_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_GMX_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ogc-schemas/lib/ISO19139_SRV_20060504.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ows/ows.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ows/csw.js"></script>
+  <script type="text/javascript" src="vendors/osgeo/ows/filter.js"></script>
+  <!-- Quantities -->
+  <script src="vendors/quantities.js"></script>
+  <!-- Turf -->
+  <script src="vendors/turf.min.js"></script>
+  <!-- Bootstrap DatePicker -->
+  <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+  <link rel="stylesheet" type="text/css" href="vendors/bootstrap-datepicker/bootstrap-datepicker.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Glegoo:400,700" rel="stylesheet">
+
+  <!-- Ecop Portal -->
+  <script src="resources/js/views.js"></script>
+  <script src="resources/js/evaluator.js"></script>
+  <script src="resources/js/ui_generator.js"></script>
+  <script src="resources/js/data/configJSON.js"></script>
+  <script src="resources/js/data/defRequisition.js"></script>
+  <link rel="stylesheet" href="resources/css/ecopPortal.css">
+  <script src="resources/js/ecopPortal.js"></script>
+
+</head>
+
+<body>
+  <div id="bottom-nav-page">
+    <div class="nav-left">
+      <img src="resources/assets/logo_ecop.png">
+      <!-- <span><b>ECOPOTENTIAL</b><span class="to-be-hidden">: improving future ecosystem benefits through earth observations</span></span> -->
+      <span><b>ECOPOTENTIAL Project</b></span>
+    </div>
+    <div class="nav-right">
+      <img src="resources/assets/logo_EU.JPG">
+      <span>No 641762</span>
+    </div>
+    <div class="nav-center">
+      <img src="resources/assets/logo_ICETA.png">
+      <span><b>ThemisE</b><span class="to-be-hidden"> - THEmatic Metadata-based and fItness for use Spatial data quality Evaluation</span></span>
+    </div>
+  </div>
+</body>
+
+</html>

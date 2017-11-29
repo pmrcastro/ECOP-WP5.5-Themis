@@ -187,8 +187,21 @@ const CSW = {
   }
 }
 
-const tcs = Storage.TCS.getTCS()
-const dtSrc = Storage.DTSRC.getDTSRC()
+//  ==== Set initial data/configuration ====
+let tcs = Storage.TCS.getTCS()
+let dtSrc = Storage.DTSRC.getDTSRC()
+
+if (Object.keys(tcs).length === 0 && dtSrc.length === 0 && defRequisition) {
+  Storage.FILES.fromFile(defRequisition, result => {
+    if (result.success) {
+      Storage.TCS.setTCS(result.TCS)
+      Storage.DTSRC.setDTSRC(result.DTSRC)
+      tcs = Storage.TCS.getTCS()
+      dtSrc = Storage.DTSRC.getDTSRC()
+    }
+  })
+}
+// ========================================
 
 window.onload = () => {
   loadInitialElements()
@@ -946,6 +959,7 @@ const loadDataSrcModal = () => {
   }
 
   if (!table.hasClass('tabulator')) {
+    if (dtSrc.length === 0) { dtSrc.push({url: 'http://eco.starlab.es/csw', enabled: false, totalFound: '??', forceRequest: true}) }
     table.tabulator({
       resizableColumns: true,
       fitColumns: true,
