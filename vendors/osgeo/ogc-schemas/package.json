@@ -1,0 +1,120 @@
+{
+  "_from": "ogc-schemas@2.5.1",
+  "_id": "ogc-schemas@2.5.1",
+  "_inBundle": false,
+  "_integrity": "sha1-Dft1L/TPG/ZDeSOdLey7lb00V7o=",
+  "_location": "/ogc-schemas",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ogc-schemas@2.5.1",
+    "name": "ogc-schemas",
+    "escapedName": "ogc-schemas",
+    "rawSpec": "2.5.1",
+    "saveSpec": null,
+    "fetchSpec": "2.5.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ogc-schemas/-/ogc-schemas-2.5.1.tgz",
+  "_shasum": "0dfb752ff4cf1bf64379239d2decbb95bd3457ba",
+  "_spec": "ogc-schemas@2.5.1",
+  "_where": "/Users/mac/Desktop/ows",
+  "author": {
+    "name": "Alexey Valikov",
+    "url": "https://github.com/highsource"
+  },
+  "bugs": {
+    "url": "http://github.com/highsource/ogc-schemas/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jsonix": ">=2.3.2",
+    "w3c-schemas": ">=1.3.1"
+  },
+  "deprecated": false,
+  "description": "Jsonix XML-JSON mappings for OGC Schemas.",
+  "devDependencies": {
+    "node-static": "0.x.x",
+    "nodeunit": "0.x.x"
+  },
+  "homepage": "https://github.com/highsource/ogc-schemas",
+  "keywords": [
+    "json",
+    "xml",
+    "unmarshal",
+    "unmarshalling",
+    "marshal",
+    "marshalling",
+    "parse",
+    "parsing",
+    "serialize",
+    "serializing",
+    "javascript",
+    "objects",
+    "dom",
+    "util",
+    "utility",
+    "jaxb",
+    "jsonix",
+    "mapping",
+    "OGC",
+    "ARML",
+    "WMC",
+    "CityGML",
+    "CSW",
+    "Filter",
+    "Filter Encoding",
+    "GML",
+    "GMLCOV",
+    "GML Application Schema for Coverages",
+    "IC",
+    "IndoorGML",
+    "ISO19139",
+    "ISO 19139",
+    "ISO19139-2",
+    "ISO 19139-2",
+    "KML",
+    "OM",
+    "OWS",
+    "Sampling",
+    "SamplingSpatial",
+    "Sampling Spatial",
+    "SE",
+    "Symbology Encoding",
+    "SensorML",
+    "SLD",
+    "SOS",
+    "SPS",
+    "SWE",
+    "SWE Common",
+    "SWES",
+    "SWE Service Model",
+    "WAMI",
+    "WaterML",
+    "WCS",
+    "WFS",
+    "WMS",
+    "WMSC",
+    "WMTS",
+    "WPS"
+  ],
+  "licenses": [
+    {
+      "type": "BSD-2-Clause",
+      "url": "http://github.com/highsource/ogc-schemas/raw/master/LICENSE"
+    }
+  ],
+  "main": "ogc-schemas.js",
+  "name": "ogc-schemas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highsource/ogc-schemas.git"
+  },
+  "scripts": {
+    "test": "nodeunit tests/tests.js"
+  },
+  "version": "2.5.1"
+}
