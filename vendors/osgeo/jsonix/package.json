@@ -1,0 +1,90 @@
+{
+  "_from": "jsonix@2.3.2",
+  "_id": "jsonix@2.3.2",
+  "_inBundle": false,
+  "_integrity": "sha1-Olbfnsf8jBKSZ8z44T2Cnr2l/S0=",
+  "_location": "/jsonix",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jsonix@2.3.2",
+    "name": "jsonix",
+    "escapedName": "jsonix",
+    "rawSpec": "2.3.2",
+    "saveSpec": null,
+    "fetchSpec": "2.3.2"
+  },
+  "_requiredBy": [
+    "/",
+    "/ogc-schemas",
+    "/w3c-schemas"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsonix/-/jsonix-2.3.2.tgz",
+  "_shasum": "3a56df9ec7fc8c129267ccf8e13d829ebda5fd2d",
+  "_spec": "jsonix@2.3.2",
+  "_where": "/Users/mac/Desktop/ows",
+  "author": {
+    "name": "Alexey Valikov",
+    "url": "http://github.com/highsource"
+  },
+  "bugs": {
+    "url": "http://github.com/highsource/jsonix/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Conrad Pankoff",
+      "url": "https://github.com/deoxxa"
+    }
+  ],
+  "dependencies": {
+    "amdefine": "0.x.x",
+    "xmldom": "0.x.x",
+    "xmlhttprequest": "1.x.x"
+  },
+  "deprecated": false,
+  "description": "Jsonix (JSON interfaces for XML) is a JavaScript library which allows converting between XML and JSON structures.",
+  "devDependencies": {
+    "node-static": "0.x.x",
+    "nodeunit": "0.x.x"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "homepage": "http://github.com/highsource/jsonix",
+  "keywords": [
+    "json",
+    "xml",
+    "unmarshal",
+    "unmarshalling",
+    "marshal",
+    "marshalling",
+    "parse",
+    "parsing",
+    "serialize",
+    "serializing",
+    "javascript objects",
+    "dom",
+    "util",
+    "utility",
+    "jaxb",
+    "jsonix"
+  ],
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "http://github.com/highsource/jsonix/raw/master/LICENSE"
+    }
+  ],
+  "main": "jsonix.js",
+  "name": "jsonix",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/highsource/jsonix.git"
+  },
+  "scripts": {
+    "test": "nodeunit tests/tests.js"
+  },
+  "version": "2.3.2"
+}
