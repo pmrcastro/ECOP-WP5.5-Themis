@@ -1,2 +1,2 @@
-# ECOP-WP5.5-Themis
+# ECOP-WP5.5-ThemisE
 ECOPOTENTIAL WP5 - Task 5.5
